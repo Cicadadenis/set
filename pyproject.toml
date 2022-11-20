@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "referal-bot"
+version = "0.1.0"
+description = "Referalnyi bot (Cicada3301)"
+authors = ["Cicada3301"]
+license = "Copyrite Cicada3301"
+readme = "README.md"
+packages = [{include = "referal_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.23.1"
+requests = "^2.28.1"
+rich = "^12.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
